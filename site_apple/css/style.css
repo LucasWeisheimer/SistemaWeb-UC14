@@ -125,7 +125,8 @@ a:hover {
 .destaque a{
     columns: black;
 }
-.box1{
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8{
     background-color: #ccc;
     width: 25%;
     height: 500px;
@@ -133,62 +134,23 @@ a:hover {
     padding-top: 3rem;
 }
 
-.box2{
-    background-color: #ccc;
-    width: 25%;
-    height: 500px;
+.login{
+    background-color: #dadada;
+    width: 100%;
+    height: auto;
     float: left;
-    padding-top: 3rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.box3{
-    background-color: #ccc;
-    width: 25%;
-    height: 500px;
+.carrinho{
+    background-color: #dadada;
+    width: 100%;
+    height: auto;
     float: left;
-    padding-top: 3rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-
-.box4{
-    background-color: #ccc;
-    width: 25%;
-    height: 500px;
-    float: left;
-    padding-top: 3rem;
-}
-
-.box5{
-    background-color: #ccc;
-    width: 25%;
-    height: 500px;
-    float: left;
-    padding-top: 3rem;
-}
-
-.box6{
-    background-color: #ccc;
-    width: 25%;
-    height: 500px;
-    float: left;
-    padding-top: 3rem;
-}
-
-.box7{
-    background-color: #ccc;
-    width: 25%;
-    height: 500px;
-    float: left;
-    padding-top: 3rem;
-}
-
-.box8{
-    background-color: #ccc;
-    width: 25%;
-    height: 500px;
-    float: left;
-    padding-top: 3rem;
-}
-
 
 .footer{
     background-color: #999;
@@ -198,7 +160,7 @@ a:hover {
 }
 
 @media screen and (max-width: 800px) {
-    .header, .navbar, .content, .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .footer {
+    .header, .navbar, .content, .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .login, .carrinho, .footer {
       width: 100%;
     }
     .header img{

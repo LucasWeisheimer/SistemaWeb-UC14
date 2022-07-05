@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/login.css">
     <script src="js/topnav.js"></script>
     <title>Sistema Apple</title>
 </head>
@@ -17,9 +18,9 @@
         </div>
         <div class="navbar">
             <div class="topnav" id="myTopnav">
-                <a href="#home" class="active">Home</a>
+                <a href="index.html">Home</a>
                 <a href="produtos.html">Produtos</a>
-                <a href="login.html">Login</a>
+                <a href="login.html" class="active">Login</a>
                 <a href="carrinho.html">Carrinho</a>
                 <a href="contato.html">Contato</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -27,8 +28,14 @@
                 </a>
               </div>
         </div>
-        <div class="content">
-            <center><img src="img/banner_1.jpg" alt=""></center>
+        <div class="login">
+            <div class="loginform">
+                <form action="/action_page.php">
+                    <input type="text" id="login" name="login" placeholder="Informe seu nome de usuario..."><br>
+                    <input type="password" id="senha" name="senha" placeholder="Senha..."><br>
+                    <center><input type="submit" value="logar"></center>
+                </form>
+            </div>
         </div>
         <div class="footer">
             <center><p>Sistema web - 2022</p></center>
