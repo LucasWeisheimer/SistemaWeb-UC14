@@ -1,132 +1,111 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/topnav.css">
-    <script src="js/topnav.js"></script>
-    <title>Sistema Apple</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/produtos.css">
+    <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <center><a href="index.html"><img src="img/logo_apple.png" alt="logo_apple"></a></center>
-        </div>
+    <header class="header">
         <div class="navbar">
-            <div class="topnav" id="myTopnav">
-                <a href="index.html">Home</a>
-                <a href="produtos.html" class="active">Produtos</a>
-                <a href="login.html">Login</a>
-                <a href="carrinho.html">Carrinho</a>
-                <a href="contato.html">Contato</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                  <i class="fa fa-bars"></i>
-                </a>
-              </div>
-        </div>
-        <div class="content">
-            <center><img src="img/banner_1.jpg" alt=""></center>
-        </div>
-        <div class="destaque">
-            <center><h1 class="destaque-title"><b class="destaque-title">DESTAQUE</b></h1></center>
+            <a href="index.html"><img src="img/logo_apple.png" alt="logo_apple"></a>
+            <ul>
+                <li><a href="index.html" class="navbar-itens">Home</a></li>
+                <li><a href="produtos.html" class="navbar-itens active">Produtos</a></li>
+                <li><a href="login.html" class="navbar-itens">Login</a></li>
+                <li><a href="" class="navbar-itens">Carrinho</a></li>
+                <li><a href="" class="navbar-itens">Contato</a></li>
+            </ul>
+        </div> 
+    </header>
+    <main class="content">
+        <div class="box1">
             <center><div class="carde" style="width: 18rem;">
                 <img class="card-img" src="img/iphone_13.png" alt="iphone-13">
                 <div class="card_body">
-                  <h5 class="card_title">Iphone 13</h5>
-                  <p class="card_text">Clique em saiba mais.</p>
-                  <a href="#" class="botao btn_primary">Saiba mais</a>
+                <h5 class="card_title">Iphone 13</h5>
+                <p class="card_text">R$ 9.000</p>
+                <input type="submit" value="Comprar" class="btn">
                 </div>
             </div></center>
         </div>
-        <div class="produtos">
-            <div class="box1">
-                <center><div class="carde" style="width: 18rem;">
-                    <img class="card-img" src="img/iphone_13.png" alt="iphone-13">
-                    <div class="card_body">
-                    <h5 class="card_title">Iphone 13</h5>
-                    <p class="card_text">R$ 9.000</p>
-                    <a href="#" class="botao btn_primary">Compre já</a>
-                    </div>
-                </div></center>
-            </div>
-            <div class="box2">
-                <center><div class="carde" style="width: 18rem;">
-                    <img class="card-img" src="img/iphone_13.png" alt="iphone-13">
-                    <div class="card_body">
-                    <h5 class="card_title">Iphone 13</h5>
-                    <p class="card_text">R$ 9.000</p>
-                    <a href="#" class="botao btn_primary">Compre já</a>
-                    </div>
-                </div></center>
-            </div>
-            <div class="box3">
-                <center><div class="carde" style="width: 18rem;">
-                    <img class="card-img" src="img/iphone_13.png" alt="iphone-13">
-                    <div class="card_body">
-                    <h5 class="card_title">Iphone 13</h5>
-                    <p class="card_text">R$ 9.000</p>
-                    <a href="#" class="botao btn_primary">Compre já</a>
-                    </div>
-                </div></center>
-            </div>
-            <div class="box4">
-                <center><div class="carde" style="width: 18rem;">
-                    <img class="card-img" src="img/iphone_13.png" alt="iphone-13">
-                    <div class="card_body">
-                    <h5 class="card_title">Iphone 13</h5>
-                    <p class="card_text">R$ 9.000</p>
-                    <a href="#" class="botao btn_primary">Compre já</a>
-                    </div>
-                </div></center>
-            </div>
-            <div class="box5">
-                <center><div class="carde" style="width: 18rem;">
-                    <img class="card-img" src="img/iphone_13.png" alt="iphone-13">
-                    <div class="card_body">
-                    <h5 class="card_title">Iphone 13</h5>
-                    <p class="card_text">R$ 9.000</p>
-                    <a href="#" class="botao btn_primary">Compre já</a>
-                    </div>
-                </div></center>
-            </div>
-            <div class="box6">
-                <center><div class="carde" style="width: 18rem;">
-                    <img class="card-img" src="img/iphone_13.png" alt="iphone-13">
-                    <div class="card_body">
-                    <h5 class="card_title">Iphone 13</h5>
-                    <p class="card_text">R$ 9.000</p>
-                    <a href="#" class="botao btn_primary">Compre já</a>
-                    </div>
-                </div></center>
-            </div>
-            <div class="box7">
-                <center><div class="carde" style="width: 18rem;">
-                    <img class="card-img" src="img/iphone_13.png" alt="iphone-13">
-                    <div class="card_body">
-                    <h5 class="card_title">Iphone 13</h5>
-                    <p class="card_text">R$ 9.000</p>
-                    <a href="#" class="botao btn_primary">Compre já</a>
-                    </div>
-                </div></center>
-            </div>
-            <div class="box8">
-                <center><div class="carde" style="width: 18rem;">
-                    <img class="card-img" src="img/iphone_13.png" alt="iphone-13">
-                    <div class="card_body">
-                    <h5 class="card_title">Iphone 13</h5>
-                    <p class="card_text">R$ 9.000</p>
-                    <a href="#" class="botao btn_primary">Compre já</a>
-                    </div>
-                </div></center>
-            </div>
+        <div class="box2">
+            <center><div class="carde" style="width: 18rem;">
+                <img class="card-img" src="img/iphone_13.png" alt="iphone-13">
+                <div class="card_body">
+                <h5 class="card_title">Iphone 13</h5>
+                <p class="card_text">R$ 9.000</p>
+                <input type="submit" value="Comprar" class="btn">
+                </div>
+            </div></center>
         </div>
-        <div class="footer">
-            <center><p>Sistema web - 2022</p></center>
+        <div class="box3">
+            <center><div class="carde" style="width: 18rem;">
+                <img class="card-img" src="img/iphone_13.png" alt="iphone-13">
+                <div class="card_body">
+                <h5 class="card_title">Iphone 13</h5>
+                <p class="card_text">R$ 9.000</p>
+                <input type="submit" value="Comprar" class="btn">
+                </div>
+            </div></center>
         </div>
-    </div>
-    
+        <div class="box4">
+            <center><div class="carde" style="width: 18rem;">
+                <img class="card-img" src="img/iphone_13.png" alt="iphone-13">
+                <div class="card_body">
+                <h5 class="card_title">Iphone 13</h5>
+                <p class="card_text">R$ 9.000</p>
+                <input type="submit" value="Comprar" class="btn">
+                </div>
+            </div></center>
+        </div>
+        <div class="box5">
+            <center><div class="carde" style="width: 18rem;">
+                <img class="card-img" src="img/iphone_13.png" alt="iphone-13">
+                <div class="card_body">
+                <h5 class="card_title">Iphone 13</h5>
+                <p class="card_text">R$ 9.000</p>
+                <input type="submit" value="Comprar" class="btn">
+                </div>
+            </div></center>
+        </div>
+        <div class="box6">
+            <center><div class="carde" style="width: 18rem;">
+                <img class="card-img" src="img/iphone_13.png" alt="iphone-13">
+                <div class="card_body">
+                <h5 class="card_title">Iphone 13</h5>
+                <p class="card_text">R$ 9.000</p>
+                <input type="submit" value="Comprar" class="btn">
+                </div>
+            </div></center>
+        </div>
+        <div class="box7">
+            <center><div class="carde" style="width: 18rem;">
+                <img class="card-img" src="img/iphone_13.png" alt="iphone-13">
+                <div class="card_body">
+                <h5 class="card_title">Iphone 13</h5>
+                <p class="card_text">R$ 9.000</p>
+                <input type="submit" value="Comprar" class="btn">
+                </div>
+            </div></center>
+        </div>
+        <div class="box8">
+            <center><div class="carde" style="width: 18rem;">
+                <img class="card-img" src="img/iphone_13.png" alt="iphone-13">
+                <div class="card_body">
+                <h5 class="card_title">Iphone 13</h5>
+                <p class="card_text">R$ 9.000</p>
+                <input type="submit" value="Comprar" class="btn">
+                </div>
+            </div></center>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>

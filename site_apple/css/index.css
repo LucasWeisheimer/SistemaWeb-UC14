@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+}
+/*#161d30*/
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.92);
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.navbar a img{
+    width: 40px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li{
+    padding: 5px;
+    letter-spacing: 1.5px;
+}
+
+.navbar ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.active{
+    text-shadow: 
+    0 0 5px #fff,
+    0 0 8px #fff;
+}
+
+.navbar ul li a{
+    transition: 0.7s;   
+}
+
+
+.navbar ul li a:hover{
+    color: rgb(255, 97, 97);
+}
+
+
+
